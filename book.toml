@@ -1,0 +1,9 @@
+[book]
+authors = ["Hiroki Takizawa"]
+language = "ja"
+multilingual = false
+src = "src"
+title = "Rust Webapp Tutorial"
+
+[rust]
+edition = "2021"
