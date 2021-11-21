@@ -1,0 +1,56 @@
+div.filename {
+  display: flex;
+  margin-bottom: -16px;
+}
+
+div.filename div {
+  background-color: var(--quote-bg);
+  border-radius: 8px 8px 0 0;
+  font-family: monospace;
+  font-size: 80%;
+  font-weight: 700;
+  padding: 4px 8px;
+}
+
+table {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.source {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 16px;
+  background-color: var(--theme-popup-bg);
+  border: 1px solid var(--theme-popup-border);
+  border-radius: 4px;
+}
+
+.source .icon {
+  min-width: 32px;
+  min-height: 32px;
+  background-size: cover;
+}
+
+.ayu .icon {
+  background-image: url("/img/github-light.png");
+}
+
+.coal .icon {
+  background-image: url("/img/github-light.png");
+}
+
+.light .icon {
+  background-image: url("/img/github.png");
+}
+
+.navy .icon {
+  background-image: url("/img/github-light.png");
+}
+
+.rust .icon {
+  background-image: url("/img/github.png");
+}

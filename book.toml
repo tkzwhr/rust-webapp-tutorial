@@ -7,3 +7,6 @@ title = "Rust Webapp Tutorial"
 
 [rust]
 edition = "2021"
+
+[output.html]
+additional-css = ["theme/global.css"]
